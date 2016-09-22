@@ -1,3 +1,0 @@
-- Click: https://classroom.github.com/assignment-invitations/c09afcb6abac3e1253f3326690ee9f7a
-- HW: 6/Translate, Rotate, Scale: Transform the coordinates.
-- HW: Read this: http://artport.whitney.org/commissions/softwarestructures/text.html. Create a self-generating composition based off one of an instruction set from one of Sol Lewitt’s Wall Drawings. See here for inspiration: http://artport.whitney.org/commissions/softwarestructures/map.html; http://massmoca.org/sol-lewitt/;

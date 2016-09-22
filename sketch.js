@@ -3,7 +3,7 @@ var r = 0;
 var t = 0;
 var bDir = 1;
 var ry = 0;
-// var tr
+var ty = 0;
 
 function setup() {
   createCanvas(400, 400);
@@ -22,11 +22,13 @@ function draw() {
   if(t > 300) {
     bDir = 0;
     ry = random(0, height/10);
+    ty = random(height/2);
   }
 
   if (t < -300) {
     bDir = 1;
     ry = random(0, height/10);
+    ty = random(height/2);
   }
 
   if(bDir == 1) {
@@ -34,7 +36,7 @@ function draw() {
   } else {
     t--;
   }
-  translate(t, 0);
+  translate(t, ty);
   rotate(r);
   scale(s);
   println(t);
